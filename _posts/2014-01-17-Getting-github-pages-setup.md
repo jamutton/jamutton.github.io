@@ -1,4 +1,5 @@
 ---
+title: something or other with code
 ---
 {% include header.html param="thing" %}
 
