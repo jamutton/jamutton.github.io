@@ -6,5 +6,13 @@ title: Some test page
 <head>
     <title>{{ page.title }}</title>
 </head>
-<body>Haven't messed with this much yet</body>
+<body>Haven't messed with this much yet, but here's what I'm starting:
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</body>
 </html>
