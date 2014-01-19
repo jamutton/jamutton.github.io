@@ -1,7 +1,12 @@
 ---
+layout: post
+category : lessons
+tagline: "Getting started with jekyll and code"
+tags : [intro, beginner, jekyll, tutorial]
 title: something or other with code
 ---
-{% include header.html param="thing" %}
+
+{% include JB/setup %}
 
 Just working on getting a post setup, we'll see how this publishes
 
@@ -34,5 +39,3 @@ area({square, X, Y}) when X > 0 andalso Y > 0 ->
     X * Y.
 
 {% endhighlight %}
-
-{% include footer.html %}

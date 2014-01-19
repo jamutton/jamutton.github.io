@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        something or other with code - 
+      
+      &lt;/JamesM&gt;
+    </title>
+    
+    <meta name="author" content="James Mutton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="/assets/themes/hooligan/css-social-buttons/css/zocial.stripped.css">
+    <link href="/assets/themes/hooligan/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">    
+    <link href="/assets/themes/hooligan/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    
+    <!-- fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>      
+
+
+          <a class="brand" href="/">&lt;/JamesM&gt;</a>
+
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              
+              
+              
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+            </ul>
+            <ul class="nav pull-right social visible-desktop">
+              <li class="divider-vertical"></li>
+              
+                <li>
+                  <a href="https://github.com/jamutton" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</span>
+                  </a>
+                </li>
+              
+                  
+              
+                <li>
+                  <a href="https://twitter.com/jamutton" class="zocial twitter icon" target="_blank">
+                  <span class="hidden-desktop">Twitter</span>
+                  </a>
+                </li>
+                                        
+                         
+                                  
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        
+<div class="page-header">
+  <h1>
+    something or other with code 
+    
+      <small>Getting started with jekyll and code</small>
+    
+  </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>Just working on getting a post setup, we’ll see how this publishes</p>
+
+<h1 id="highlighting_some_code">Highlighting some code</h1>
+
+<h2 id="here_is_some_python">Here is some python</h2>
+<div class='highlight'><pre><code class='python'><span class='kn'>import</span> <span class='nn'>sys</span>
+
+<span class='k'>def</span> <span class='nf'>main</span><span class='p'>(</span><span class='n'>argv</span> <span class='o'>=</span> <span class='bp'>None</span><span class='p'>):</span>
+    <span class='k'>if</span> <span class='n'>argv</span> <span class='ow'>is</span> <span class='bp'>None</span><span class='p'>:</span>
+        <span class='n'>argv</span> <span class='o'>=</span> <span class='n'>sys</span><span class='o'>.</span><span class='n'>argv</span><span class='p'>[</span><span class='mi'>1</span><span class='p'>:]</span>
+    <span class='k'>print</span> <span class='s'>&quot;Got </span><span class='si'>%s</span><span class='s'>&quot;</span> <span class='o'>%</span> <span class='s'>&#39; &#39;</span><span class='o'>.</span><span class='n'>join</span><span class='p'>(</span><span class='n'>argv</span><span class='p'>)</span>
+    <span class='k'>return</span> <span class='mi'>0</span>
+
+<span class='k'>if</span> <span class='n'>__name__</span> <span class='o'>==</span> <span class='s'>&quot;__main__&quot;</span><span class='p'>:</span>
+    <span class='n'>sys</span><span class='o'>.</span><span class='n'>exit</span><span class='p'>(</span><span class='n'>main</span><span class='p'>)</span>
+</code></pre></div>
+<h2 id="and_maybe_here_is_some_erlang">And maybe here is some Erlang</h2>
+<div class='highlight'><pre><code class='erlang'><span class='p'>-</span><span class='ni'>module</span><span class='p'>(</span><span class='n'>shape</span><span class='p'>).</span>
+<span class='p'>-</span><span class='ni'>export</span><span class='p'>([</span><span class='n'>area</span><span class='o'>/</span><span class='mi'>1</span><span class='p'>,</span> <span class='n'>area</span><span class='o'>/</span><span class='mi'>2</span><span class='p'>])</span>
+<span class='nf'>area</span><span class='p'>(</span><span class='nv'>X</span><span class='p'>,</span><span class='nv'>Y</span><span class='p'>)</span> <span class='o'>-&gt;</span>
+    <span class='n'>area</span><span class='p'>({</span><span class='n'>square</span><span class='p'>,</span> <span class='nv'>X</span><span class='p'>,</span> <span class='nv'>Y</span><span class='p'>}).</span>
+
+<span class='nf'>area</span><span class='p'>({</span><span class='n'>square</span><span class='p'>,</span> <span class='nv'>X</span><span class='p'>,</span> <span class='nv'>Y</span><span class='p'>})</span> <span class='k'>when</span> <span class='nv'>X</span> <span class='o'>&gt;</span> <span class='mi'>0</span> <span class='ow'>andalso</span> <span class='nv'>Y</span> <span class='o'>&gt;</span> <span class='mi'>0</span> <span class='o'>-&gt;</span>
+    <span class='nv'>X</span> <span class='o'>*</span> <span class='nv'>Y</span><span class='p'>.</span>
+</code></pre></div>
+    <hr>
+    <div class="pagination btn-group">
+      
+        <a class="btn prev" href="/lessons/2011/12/29/jekyll-introduction" title="Jekyll Introduction">&larr; Previous</a>
+      
+        <a class="btn" href="/archive.html">Archive</a>
+      
+        <a class="btn next disabled">Next &rarr;</a>
+      
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>17 January 2014</span></div>
+    </section>
+    
+      <section>
+        <h4>Category</h4>
+        <span class="category">
+          lessons
+        </span>
+      </section>
+         
+    
+      <section>
+        <h4>Tags</h4>
+        <ul class="tag_box">
+          
+          
+
+
+  
+     
+    	<li><a href="/tags.html#intro-ref">intro <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#beginner-ref">beginner <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#jekyll-ref">jekyll <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#tutorial-ref">tutorial <span>2</span></a></li>
+    
+  
+
+
+
+        </ul>
+      </section>
+             
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; 2014 James Mutton
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
+        </p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/themes/hooligan/js/jquery.min.js"><\/script>')</script>
+    <script src="/assets/themes/hooligan/bootstrap/js/bootstrap.min.js"></script>
+
+    
+  </body>
+</html>
+
